@@ -1,0 +1,15 @@
+{
+  "name": "keyblade",
+  "version": "1.0.0",
+  "description": "A keyboard-only arcade survival game built for Hack Club Tabbed.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/keyboard-only.test.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

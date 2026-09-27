@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KEYBLADE — keyboard-only arcade survival</title>
+  <meta name="description" content="KEYBLADE is a fast keyboard-only arcade survival game. No mouse, no Tab key. Built for Hack Club Tabbed.">
+  <meta name="theme-color" content="#05060d">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='3' width='28' height='27' rx='6' fill='%23123a66'/%3E%3Crect x='5' y='3' width='22' height='21' rx='5' fill='%234de3ff'/%3E%3Cpath d='M11 20 L21 8' stroke='%2305060d' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="game" tabindex="-1" role="application" aria-roledescription="game"
+      aria-label="KEYBLADE. A keyboard-only game. Use the arrow keys and Enter to navigate menus."></canvas>
+    <div id="loading" aria-hidden="true">LOADING KEYBLADE…</div>
+    <div id="sr" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+    <noscript><p class="noscript">KEYBLADE needs JavaScript enabled to run.</p></noscript>
+  </main>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
